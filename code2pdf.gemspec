@@ -1,7 +1,7 @@
 require File.expand_path('../lib/code2pdf/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name                  = 'code2pdf'
+  gem.name                  = 'code2pdf_rdeterre'
   gem.summary               = 'Convert your source code to PDF'
   gem.description           = 'Convert your source code to PDF'
   gem.authors               = ['Lucas Caton']
