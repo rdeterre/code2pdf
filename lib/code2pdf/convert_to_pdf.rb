@@ -107,7 +107,7 @@ class ConvertToPDF
         f.each_line { |line_content| content << line_content }
       end
     end
-    content
+    content.encode("utf-8", invalid: :replace, undef: :replace)
   end
 
   def prepare_line_breaks(content)
